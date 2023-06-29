@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #0288D1;
+}
+
+h1 {
+    font-size: 40px;
+    color: #212121;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    padding-top: 5%;
+}
+.container .titulo{
+    border: solid 3px black;
+    background-color: #FF5722;
+    border-radius: 20px;
+    width: 90%;
+    padding: 3px;
+}
+h3 {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #006910;
+}
+.info input{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 3px black;
+    width: 60%;
+    padding: 20px;
+}
+.igresar .btn{
+    text-align: center;
+    height: 50%;
+    width: 200px;
+    font-size: 170%;
+}
+.container .tabla{
+    padding: 40px;
+}

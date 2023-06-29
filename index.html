@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/estilos.css">
+    <title>Puntaje de Generala</title>
+</head>
+<body>
+    <div class="container ">
+        <div class="titulo">
+            <h1>Anotador para La Generala</h1>
+        </div>
+        <br>
+        <div class="info">
+            <input type="text" name="Ingresa tu nomnbre" placeholder="Nombre del jugador" id="nombre">
+        </div>
+        <br><br>
+        <div class="igresar">
+            <button class="btn btn-dark" id="btn">ENVIAR</button>
+            <div class="tabla">
+                <table class="table table-hover">
+                  <thead class="table-danger">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col" id="jugador01">JUGADOR N°1</th>
+                      <th scope="col" id="jugador02">Jugador N°2</th>
+                      <th scope="col" id="jugador03">Jugador N°3</th>
+                      <th scope="col" id="jugador04">Jugador N°4</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr  class="">
+                      <!-- NUMERO 1 -->
+                      <th scope="row">1</th>
+                      <td>
+                          <select class="form-select puntos" name="punto" id="elemento00" >
+                            <option value="-">TE FALTA</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select puntos" name="punto" id="elemento01" >
+                            <option value="-">TE FALTA</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento02" >
+                            <option value="-">TE FALTA</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento03" >
+                            <option value="-">TE FALTA</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- NUMERO 2 -->
+                      <th scope="row">2</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento04" >
+                            <option value="-">TE FALTA</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento05" >
+                            <option value="-">TE FALTA</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento06" >
+                            <option value="-">TE FALTA</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento07">
+                            <option value="-">TE FALTA</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                    </tr>
+                    <tr  class="">
+                      <!-- NUMERO 3 -->
+                      <th scope="row">3</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento08" >
+                            <option value="-">TE FALTA</option>
+                            <option value="3">3</option>
+                            <option value="6">6</option>
+                            <option value="9">9</option>
+                            <option value="12">12</option>
+                            <option value="15">15</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento09" >
+                            <option value="-">TE FALTA</option>
+                            <option value="3">3</option>
+                            <option value="6">6</option>
+                            <option value="9">9</option>
+                            <option value="12">12</option>
+                            <option value="15">15</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento10" >
+                            <option value="-">TE FALTA</option>
+                            <option value="2">3</option>
+                            <option value="6">6</option>
+                            <option value="9">9</option>
+                            <option value="12">12</option>
+                            <option value="15">15</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento11" >
+                            <option value="-">TE FALTA</option>
+                            <option value="3">3</option>
+                            <option value="6">6</option>
+                            <option value="9">9</option>
+                            <option value="12">12</option>
+                            <option value="15">15</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- NUMERO 4 -->
+                      <th scope="row">4</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento12" >
+                            <option value="-">TE FALTA</option>
+                            <option value="4">4</option>
+                            <option value="8">8</option>
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento13" >
+                            <option value="-">TE FALTA</option>
+                            <option value="4">4</option>
+                            <option value="8">8</option>
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento14" >
+                            <option value="-">TE FALTA</option>
+                            <option value="4">4</option>
+                            <option value="8">8</option>
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento15" >
+                            <option value="-">TE FALTA</option>
+                            <option value="4">4</option>
+                            <option value="8">8</option>
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                    </tr>
+                    <tr  class="">
+                      <!-- NUMERO 5 -->
+                      <th scope="row">5</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento16" >
+                            <option value="-">TE FALTA</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento17" >
+                          <option value="-">TE FALTA</option>
+                          <option value="5">5</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                          <option value="25">25</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento18" >
+                          <option value="-">TE FALTA</option>
+                          <option value="5">5</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                          <option value="25">25</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento19" >
+                          <option value="-">TE FALTA</option>
+                          <option value="5">5</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                          <option value="25">25</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- NUMERO 6 -->
+                      <th scope="row">6</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento20" >
+                          <option value="-">TE FALTA</option>
+                            <option value="6">6</option>
+                            <option value="12">12</option>
+                            <option value="18">18</option>
+                            <option value="24">24</option>
+                            <option value="30">30</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento21" >
+                          <option value="-">TE FALTA</option>
+                            <option value="6">6</option>
+                            <option value="12">12</option>
+                            <option value="18">18</option>
+                            <option value="24">24</option>
+                            <option value="30">30</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento22" >
+                          <option value="-">TE FALTA</option>
+                            <option value="6">6</option>
+                            <option value="12">12</option>
+                            <option value="18">18</option>
+                            <option value="24">24</option>
+                            <option value="30">30</option>
+                            <option value="/">/</option>
+                          </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento23" >
+                            <option value="-">TE FALTA</option>
+                            <option value="6">6</option>
+                            <option value="12">12</option>
+                            <option value="18">18</option>
+                            <option value="24">24</option>
+                            <option value="30">30</option>
+                            <option value="/">/</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr  class="">
+                      <!-- ESCALERA -->
+                      <th scope="row">ESC</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento24" >
+                          <option value="-">TE FALTA</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento25" >
+                          <option value="-">TE FALTA</option>
+                          <option value="25">25</option>
+                          <option value="30">50</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento26" >
+                          <option value="-">TE FALTA</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento27" >
+                          <option value="-">TE FALTA</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- FULL -->
+                      <th scope="row">FULL</th>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento28" >
+                          <option value="-">TE FALTA</option>
+                          <option value="35">35</option>
+                          <option value="70">70</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento29" >
+                          <option value="-">TE FALTA</option>
+                          <option value="35">35</option>
+                          <option value="70">70</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento30" >
+                          <option value="-">TE FALTA</option>
+                          <option value="35">35</option>
+                          <option value="70">70</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select class="form-select" name="punto" id="elemento31" >
+                          <option value="-">TE FALTA</option>
+                          <option value="35">35</option>
+                          <option value="70">70</option>
+                          <option value="/">/</option>
+                        </select>
+                      </td>
+                      <tr  class="">
+                        <!-- POCKER -->
+                        <th scope="row">POCK</th>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento32" > 
+                            <option value="-">TE FALTA</option>
+                            <option value="45">45</option>
+                            <option value="90">90</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento33" >
+                            <option value="-">TE FALTA</option>
+                            <option value="45">45</option>
+                            <option value="90">90</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento34" >
+                            <option value="-">TE FALTA</option>
+                            <option value="45">45</option>
+                            <option value="90">90</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento35" >
+                            <option value="-">TE FALTA</option>
+                            <option value="45">45</option>
+                            <option value="90">90</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <!-- GENERALA -->
+                        <th scope="row">G</th>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento36" >
+                            <option value="-">TE FALTA</option>
+                            <option value="60">60</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento37" >
+                            <option value="-">TE FALTA</option>
+                            <option value="60">60</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento38" > 
+                            <option value="-">TE FALTA</option>
+                            <option value="60">60</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select puntos" name="punto" id="elemento39" >
+                            <option value="-">TE FALTA</option>
+                            <option value="60">60</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr  class="">
+                        <!-- GENERALA DOBLE -->
+                        <th scope="row">G-2</th>
+                        <td>
+                          <select class="form-select puntos" name="punto" id="elemento40" >
+                            <option value="-">TE FALTA</option>
+                            <option value="120">120</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento41" >
+                            <option value="-">TE FALTA</option>
+                            <option value="120">120</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento42" >
+                            <option value="-">TE FALTA</option>
+                            <option value="120">120</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="form-select" name="punto" id="elemento43" > 
+                            <option value="-">TE FALTA</option>
+                            <option value="120">120</option>
+                            <option value="/">/</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" id="total">TOTAL</th>
+                          <td>
+                            <span id="scorePlayer01">
+                              <h3 id="resultado01">0</h3>
+                            </span>
+                          </td>
+                          <td id="scorePlayer02">
+                            <span id="">
+                              <h3 id="resultado02">0</h3>
+                            </span>
+                          </td>
+                          <td id="scorePlayer03">
+                            <h3 id="resultado03">0</h3>
+                          </td>
+                          <td id="scorePlayer04">
+                            <h3 id="resultado04">0</h3>
+                          </td>
+                      </tr>
+                    </tr>
+                  </tbody>
+              </table>
+              <div class="total">
+              </div>
+              <div class="calcular">
+                <button class="btn btn-dark" id="calcular-btn">Calcular</button>
+              </div>
+              <div>
+              </div>
+            </div>
+        </div>
+        <script src="./javascript/app.js"></script>
+        <script src="./javascript/calcular.js"></script>
+      </div>
+</body>
+</html>
