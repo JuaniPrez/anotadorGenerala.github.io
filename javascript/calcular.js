@@ -1,15 +1,20 @@
 /* obtener datos */
 
+// Función que se ejecuta cuando se cambia una selección
+
 function handleSelectChange(event) {
     let selectedValue = event.target.value;
     console.log(selectedValue);
 }
+
+// Función para obtener los valores seleccionados y las salidas de diferentes secciones
 
 function obtenerValoresYSalidas(elementoId, jugador) {
     let selecPuntos_num = [];
     let valuePunto_num = [];
     let valuePunto_txt = [];
 
+    // Recorrer los 4 elementos de selección
     for (let i = 0; i < 4; i++) {
         selecPuntos_num[i] = document.getElementById(elementoId[i]);
         valuePunto_num[i] = selecPuntos_num[i].value;
@@ -21,6 +26,8 @@ function obtenerValoresYSalidas(elementoId, jugador) {
     return { valuePunto_num,};
 
 }
+
+// Obtener valores y salidas para diferentes secciones y jugadores
 
 let seccion1 = obtenerValoresYSalidas(['elemento00', 'elemento01', 'elemento02', 'elemento03'], 1);
 let seccion2 = obtenerValoresYSalidas(['elemento04', 'elemento05', 'elemento06', 'elemento07'], 2);
@@ -55,6 +62,7 @@ function calcularTotal() {
         document.getElementById("elemento40").value
     ];
     
+    // Obtener los elementos seleccionados del jugador N°2
     const scorePlayer02 = [
         document.getElementById("elemento01").value,
         document.getElementById("elemento05").value,
@@ -68,7 +76,8 @@ function calcularTotal() {
         document.getElementById("elemento37").value,
         document.getElementById("elemento41").value
     ];
-    
+
+    // Obtener los elementos seleccionados del jugador N°3
     const scorePlayer03 = [
         document.getElementById("elemento02").value,
         document.getElementById("elemento06").value,
@@ -83,6 +92,7 @@ function calcularTotal() {
         document.getElementById("elemento42").value
     ];
 
+    // Obtener los elementos seleccionados del jugador N°4
     const scorePlayer04 = [
         document.getElementById("elemento03").value,
         document.getElementById("elemento07").value,
