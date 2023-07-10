@@ -69,6 +69,7 @@ function calcularTotal() {
         document.getElementById("elemento09").value,
         document.getElementById("elemento13").value,
         document.getElementById("elemento15").value,
+        document.getElementById("elemento17").value,
         document.getElementById("elemento21").value,
         document.getElementById("elemento25").value,
         document.getElementById("elemento29").value,
