@@ -4,7 +4,6 @@ Esta página web es una calculadora de puntos diseñada para el juego de La Gene
 
 ## Futuros Cambios
 
-- Agregar soporte para diferentes variantes de La Generala (puntajes).
 - Mejorar la interfaz de usuario y la experiencia de usuario.
 - Agregar informacion de como se arman los juegos.
 
